@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+ul,
+h1,
+h2,
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  font-size: 1rem;
+  color: black;
+}
+
+h1 {
+  font-size: 4rem;
+  color: green;
+}
+
+h2 {
+  font-size: 3rem;
+  color: orange;
+}
+
+h3 {
+  font-size: 2rem;
+  color: red;
+}
+
+
