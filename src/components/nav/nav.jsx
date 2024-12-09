@@ -1,13 +1,19 @@
-import { NavBarStyled } from './nav.styled'
+import style from './nav.module.scss'
 
 export const Nav = () =>{
     return(
-<NavBarStyled backgroundcolor="white">
-<ul>
-    <li>Hej</li>
-    <li>Med</li>
-    <li>Dig</li>
-</ul>
-</NavBarStyled>
+        <header className={style.headerStyle}>
+        <nav>
+            <a href="#xxx">Hjem</a>
+            <a href="#xxx">Koncepter</a>
+            <a href="#xxx">UTM Loyalty</a>
+            <a href="#xxx">Om</a>
+            <a href="#xxx">Kontakt</a>
+        </nav>
+        </header>
     )
 };
+
+
+
+
