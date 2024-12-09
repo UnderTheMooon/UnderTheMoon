@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,18 +10,13 @@
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  font-family: "Gilda Display", serif;
 }
 
 body {
   background-color: whitesmoke;
 }
 
-ul,
-h1,
-h2,
-h3 {
-  font-family: 'Times New Roman', Times, serif;
-}
 
 ul {
   font-size: 1rem;
