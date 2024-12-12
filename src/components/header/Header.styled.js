@@ -27,7 +27,7 @@ div{
     transform: translateX(-50%);
     width: 100%;
     background: rgba(0,0,0,0.7);
-    padding: 2rem 30%;
+    padding: 2rem;
     color: #fff;
     text-align: center;
     z-index: 1;
@@ -39,7 +39,7 @@ div{
     }
     p{
         font-size: 1vw;
-        font-weight: 300
+        font-weight: 300;
         max-width: 600px; /* Set the maximum width */
         margin: 0 auto; /* Center the paragraph */
     }

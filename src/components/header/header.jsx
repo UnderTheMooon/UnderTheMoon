@@ -1,5 +1,6 @@
 import headerBG from '../../assets/HeaderBG.png';
 import { HeaderStyled } from './Header.styled';
+
 export const Header = () => {
     return (
         <HeaderStyled>
